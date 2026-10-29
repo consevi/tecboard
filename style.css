@@ -1,0 +1,108 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0E1014;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 4.5rem;
+}
+
+
+h1 span {
+    color: #9747ff;
+}
+
+
+p {
+    text-align: center;
+    margin-top: -30;
+    font-size: 1.70rem;
+}
+
+
+.modo {
+    position: relative;
+    margin-left: auto;
+    margin-right: 5%;
+    width: fit-content;
+    left: 68vw;
+    top: 2vh;
+}
+
+
+.img {
+    display: block;
+    margin-inline: auto;
+    margin-top: 0vh;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 25px;
+    margin: 0 auto;
+
+}
+
+.botao {
+    display: block;
+    margin: 5vh auto 0;
+    width: min(340px, 90%);
+    min-height: 66px;
+    font-size: 32px;
+}
+
+
+.botao .hover {
+    opacity: 0;
+}
+
+
+.botao:hover .hover {
+    opacity: 1;
+}
+
+
+.botao img {
+    position: absolute;
+    transition: opacity 0.2s ease;
+}
+
+.logo {
+    position: relative;
+    left: 12%;
+    top: 2vh;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        margin: 24px 16px 0;
+    }
+
+    .img {
+        width: 92%;
+        border-radius: 16px;
+    }
+
+    .logo {
+        margin-left: 5%;
+    }
+
+    .modo {
+        margin-right: 5%;
+    }
+
+    .botao {
+        width: 90%;
+    }
+}
